@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSCameraUsageDescription</key>
+	<string>Taking a photo and attach to the task.</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -16,6 +20,8 @@
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Vietnam photos and video use.</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
@@ -31,11 +37,11 @@
 			<string>vk5721752</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-                <string>vkauthorize</string>
-                <string>vk5721752</string>
+				<string>vkauthoriz</string>
+				<string>vk5721752</string>
 			</array>
 		</dict>
-    </array>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>FacebookAppID</key>
@@ -82,8 +88,7 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 </dict>
 </plist>

@@ -1,0 +1,147 @@
+
+/* Class = "UIButton"; normalTitle = "Подтвердить регистрацию"; ObjectID = "0TH-gE-Kdx"; */
+"0TH-gE-Kdx.normalTitle" = "Подтвердить регистрацию";
+
+/* Class = "UITextField"; placeholder = " Email"; ObjectID = "7jw-ci-DGV"; */
+"7jw-ci-DGV.placeholder" = " Email";
+
+/* Class = "UILabel"; text = "Nickname"; ObjectID = "8RE-eC-3S2"; */
+"8RE-eC-3S2.text" = "Nickname";
+
+/* Class = "UILabel"; text = "Войдите, чтобы оставить объявление"; ObjectID = "8eJ-mg-Tvv"; */
+"8eJ-mg-Tvv.text" = "Войдите, чтобы оставить объявление";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "BlP-Fg-JWJ"; */
+"BlP-Fg-JWJ.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "ДОБРО ПОЖАЛОВАТЬ"; ObjectID = "EfB-tX-cI0"; */
+"EfB-tX-cI0.text" = "ДОБРО ПОЖАЛОВАТЬ";
+
+/* Class = "UITextField"; placeholder = "Имя:"; ObjectID = "FPZ-kg-OMn"; */
+"FPZ-kg-OMn.placeholder" = "Имя:";
+
+/* Class = "UITextField"; placeholder = "Код:"; ObjectID = "G2Y-FM-cN7"; */
+"G2Y-FM-cN7.placeholder" = "Код:";
+
+/* Class = "UIButton"; normalTitle = "Отправить код"; ObjectID = "HSm-F3-Dhf"; */
+"HSm-F3-Dhf.normalTitle" = "Отправить код";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "I0O-M0-5Ge"; */
+"I0O-M0-5Ge.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Выберите категорию"; ObjectID = "Imc-E7-AFd"; */
+"Imc-E7-AFd.normalTitle" = "Выберите категорию";
+
+/* Class = "UITabBarItem"; title = "Добавить"; ObjectID = "J6k-Oz-8da"; */
+"J6k-Oz-8da.title" = "Добавить";
+
+/* Class = "UITabBarItem"; title = "Я"; ObjectID = "KA5-5n-Rzx"; */
+"KA5-5n-Rzx.title" = "Я";
+
+/* Class = "UISegmentedControl"; KTe-Bp-rxu.segmentTitles[0] = "Муж"; ObjectID = "KTe-Bp-rxu"; */
+"KTe-Bp-rxu.segmentTitles[0]" = "Муж";
+
+/* Class = "UISegmentedControl"; KTe-Bp-rxu.segmentTitles[1] = "Жен"; ObjectID = "KTe-Bp-rxu"; */
+"KTe-Bp-rxu.segmentTitles[1]" = "Жен";
+
+/* Class = "UIButton"; normalTitle = "Прикрепить фотографии"; ObjectID = "Lgi-Zx-abs"; */
+"Lgi-Zx-abs.normalTitle" = "Прикрепить фотографии";
+
+/* Class = "UITabBarItem"; title = "Избранное"; ObjectID = "MoI-fs-IMK"; */
+"MoI-fs-IMK.title" = "Избранное";
+
+/* Class = "UITextField"; placeholder = "Пароль:"; ObjectID = "N5u-0m-K6x"; */
+"N5u-0m-K6x.placeholder" = "Пароль:";
+
+/* Class = "UINavigationItem"; title = "Объявления"; ObjectID = "OHC-jX-Ljw"; */
+"OHC-jX-Ljw.title" = "Объявления";
+
+/* Class = "UITextField"; placeholder = "Повторите пароль:"; ObjectID = "Rit-6P-fc7"; */
+"Rit-6P-fc7.placeholder" = "Повторите пароль:";
+
+/* Class = "UILabel"; text = "Войти с помощью"; ObjectID = "Ut8-f5-8EP"; */
+"Ut8-f5-8EP.text" = "Войти с помощью";
+
+/* Class = "UIButton"; normalTitle = "Войти через Email"; ObjectID = "WBh-pr-1HP"; */
+"WBh-pr-1HP.normalTitle" = "Войти через Email";
+
+/* Class = "UIButton"; normalTitle = "Войти"; ObjectID = "WCJ-bE-jQ5"; */
+"WCJ-bE-jQ5.normalTitle" = "Войти";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Zd2-Z7-rw1"; */
+"Zd2-Z7-rw1.text" = "Title";
+
+/* Class = "UITextField"; placeholder = "Пароль"; ObjectID = "a0G-uQ-b9b"; */
+"a0G-uQ-b9b.placeholder" = "Пароль";
+
+/* Class = "UILabel"; text = "Заголовок:"; ObjectID = "aga-Ym-zef"; */
+"aga-Ym-zef.text" = "Заголовок:";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "bax-57-c6I"; */
+"bax-57-c6I.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "Регистрация"; ObjectID = "c9G-3v-CU0"; */
+"c9G-3v-CU0.title" = "Регистрация";
+
+/* Class = "UITextField"; placeholder = "Email:"; ObjectID = "cOY-Kd-hLL"; */
+"cOY-Kd-hLL.placeholder" = "Email:";
+
+/* Class = "UITabBarItem"; title = "Лента"; ObjectID = "fER-rb-PUn"; */
+"fER-rb-PUn.title" = "Лента";
+
+/* Class = "UITextField"; placeholder = "Email:"; ObjectID = "fkI-Tn-RiT"; */
+"fkI-Tn-RiT.placeholder" = "Email:";
+
+/* Class = "UIBarButtonItem"; title = "Отмена"; ObjectID = "gEn-ES-F6T"; */
+"gEn-ES-F6T.title" = "Отмена";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "jkX-b9-igm"; */
+"jkX-b9-igm.text" = "Name";
+
+/* Class = "UITextView"; text = "text"; ObjectID = "lwQ-px-RuL"; */
+"lwQ-px-RuL.text" = "text";
+
+/* Class = "UIButton"; normalTitle = "Разместить объявление"; ObjectID = "nbV-eC-Uc0"; */
+"nbV-eC-Uc0.normalTitle" = "Разместить объявление";
+
+/* Class = "UIBarButtonItem"; title = "Назад"; ObjectID = "oT2-e0-HS9"; */
+"oT2-e0-HS9.title" = "Назад";
+
+/* Class = "UINavigationItem"; title = "Результаты поиска"; ObjectID = "rqW-pl-yxF"; */
+"rqW-pl-yxF.title" = "Результаты поиска";
+
+/* Class = "UIButton"; normalTitle = "Зарегистрироваться"; ObjectID = "s5i-HZ-BFN"; */
+"s5i-HZ-BFN.normalTitle" = "Зарегистрироваться";
+
+/* Class = "UILabel"; text = "Категория:"; ObjectID = "saB-mk-tD2"; */
+"saB-mk-tD2.text" = "Категория:";
+
+/* Class = "UILabel"; text = "Объявление:"; ObjectID = "sie-CV-QLY"; */
+"sie-CV-QLY.text" = "Объявление:";
+
+/* Class = "UINavigationItem"; title = "Войдите через Email"; ObjectID = "tqK-Ee-YcT"; */
+"tqK-Ee-YcT.title" = "Войдите через Email";
+
+/* Class = "UIButton"; normalTitle = "Забыли пароль?"; ObjectID = "uVD-OF-d3I"; */
+"uVD-OF-d3I.normalTitle" = "Забыли пароль?";
+
+/* Class = "UIButton"; normalTitle = "Регистрация"; ObjectID = "ut6-Fe-9qc"; */
+"ut6-Fe-9qc.normalTitle" = "Регистрация";
+
+/* Class = "UIBarButtonItem"; title = "Отмена"; ObjectID = "v41-KK-1bh"; */
+"v41-KK-1bh.title" = "Отмена";
+
+/* Class = "UIButton"; normalTitle = "Войти"; ObjectID = "wj6-pY-Tp2"; */
+"wj6-pY-Tp2.normalTitle" = "Войти";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "x0G-IC-UfY"; */
+"x0G-IC-UfY.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "xPN-VS-3ST"; */
+"xPN-VS-3ST.text" = "Title";
+
+/* Class = "UITabBarItem"; title = "Дом"; ObjectID = "zCX-zV-0Yr"; */
+"zCX-zV-0Yr.title" = "Дом";
+
+/* Class = "UITextField"; placeholder = "Пароль 6..12 знаков"; ObjectID = "zjZ-PU-js4"; */
+"zjZ-PU-js4.placeholder" = "Пароль 6..12 знаков";

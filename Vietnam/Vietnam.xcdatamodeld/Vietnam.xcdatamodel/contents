@@ -1,10 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="16B2555" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Avatar" representedClassName="Avatar" syncable="YES" codeGenerationType="class">
+        <attribute name="avatar" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+    </entity>
+    <entity name="Favorites" representedClassName="Favorites" syncable="YES" codeGenerationType="class">
+        <attribute name="body" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="header" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nickname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pictures" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subcategory" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="telnum" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
     <entity name="Isregistered" representedClassName="Isregistered" syncable="YES" codeGenerationType="class">
         <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="state" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nickname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="Integer 32" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="telnum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vkid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Searches" representedClassName="Searches" syncable="YES" codeGenerationType="class">
+        <attribute name="tries" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Isregistered" positionX="-54" positionY="-9" width="128" height="75"/>
+        <element name="Avatar" positionX="-54" positionY="63" width="128" height="60"/>
+        <element name="Favorites" positionX="-54" positionY="36" width="128" height="225"/>
+        <element name="Isregistered" positionX="-54" positionY="-9" width="128" height="165"/>
+        <element name="Searches" positionX="-54" positionY="9" width="128" height="60"/>
     </elements>
 </model>

@@ -335,6 +335,7 @@ static const CGFloat MBDefaultDetailsLabelFontSize = 12.f;
     label.textColor = defaultColor;
     label.font = [UIFont boldSystemFontOfSize:MBDefaultLabelFontSize];
     label.opaque = NO;
+    label.numberOfLines = 0;
     label.backgroundColor = [UIColor clearColor];
     _label = label;
 
@@ -384,7 +385,7 @@ static const CGFloat MBDefaultDetailsLabelFontSize = 12.f;
         if (!isActivityIndicator) {
             // Update to indeterminate indicator
             [indicator removeFromSuperview];
-            indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
+            indicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
             [(UIActivityIndicatorView *)indicator startAnimating];
             [self.bezelView addSubview:indicator];
         }
@@ -1106,7 +1107,7 @@ static const CGFloat MBDefaultDetailsLabelFontSize = 12.f;
 - (instancetype)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
         if (kCFCoreFoundationVersionNumber >= kCFCoreFoundationVersionNumber_iOS_7_0) {
-            _style = MBProgressHUDBackgroundStyleBlur;
+            _style = MBProgressHUDBackgroundStyleSolidColor;
             if (kCFCoreFoundationVersionNumber >= kCFCoreFoundationVersionNumber_iOS_8_0) {
                 _color = [UIColor colorWithWhite:0.8f alpha:0.6f];
             } else {
@@ -1114,7 +1115,7 @@ static const CGFloat MBDefaultDetailsLabelFontSize = 12.f;
             }
         } else {
             _style = MBProgressHUDBackgroundStyleSolidColor;
-            _color = [[UIColor blackColor] colorWithAlphaComponent:0.8];
+            _color = [[UIColor whiteColor] colorWithAlphaComponent:0.8];
         }
 
         self.clipsToBounds = YES;

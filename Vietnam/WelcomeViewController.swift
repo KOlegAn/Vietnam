@@ -107,7 +107,7 @@ class WelcomeViewController: UIViewController, VKSdkUIDelegate, VKSdkDelegate {
     
     func vkSdkUserAuthorizationFailed() {
         print("Authorization failed")
-        self.navigationController?.popToRootViewController(animated: true)
+        _ = self.navigationController?.popToRootViewController(animated: true)
     }
     
     func vkSdkTokenHasExpired(_ expiredToken: VKAccessToken!) {
@@ -178,11 +178,6 @@ class WelcomeViewController: UIViewController, VKSdkUIDelegate, VKSdkDelegate {
             })
         
         }
-        
-        
-        
-        
-        
 
     }
 
@@ -207,7 +202,7 @@ class WelcomeViewController: UIViewController, VKSdkUIDelegate, VKSdkDelegate {
         mb.mode = MBProgressHUDMode.text
         mb.label.text = text
         mb.margin = 10.0
-        mb.offset.y = self.view.frame.height/5
+        mb.offset.y = -self.view.frame.height/2 + 88
         mb.removeFromSuperViewOnHide = true
         mb .hide(animated: true, afterDelay: 1.5)
         

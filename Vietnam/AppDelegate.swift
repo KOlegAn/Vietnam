@@ -10,6 +10,7 @@ import UIKit
 import CoreData
 
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -19,11 +20,53 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+
+        DropDown.startListeningToKeyboard()
+        DropDown.appearance().backgroundColor = UIColor.white
+        //DropDown.appearance().separatorColor = UIColor.lightGray
         
+        UIApplication.shared.statusBarStyle = UIStatusBarStyle.lightContent
+
+        let attrs = [
+            NSForegroundColorAttributeName: UIColor.white,
+            NSFontAttributeName: UIFont(name: "AvenirNextCondensed-Medium", size: 18)!
+        ]
+        
+        //BodoniOrnamentsITCTT
+        
+        UINavigationBar.appearance().titleTextAttributes = attrs
+        UINavigationBar.appearance().tintColor = UIColor.white
+        //UINavigationBar.appearance().barTintColor = UIColor(colorLiteralRed: 85/255, green: 156/255, blue: 91/255, alpha: 1.0)
+        //UINavigationBar.appearance().barTintColor = HELPER.uicolorFromHex(rgbValue: 0x034517)
+        UINavigationBar.appearance().barTintColor = UIColor.black
+
         // Override point for customization after application launch.
+        
+        
+        UIApplication.shared.registerUserNotificationSettings(UIUserNotificationSettings(types: [.sound, .badge, .alert], categories: nil))
+        UIApplication.shared.registerForRemoteNotifications()
+        
+        
         return true
     }
 
+    //3f2d8466 0d088b84 811a8865 6eccf826 8729c79d 45592792 256d8f07 070b44ef
+    
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        let token  = NSData(data: deviceToken)
+        print("Registered with token: \(token)")
+    }
+    
+    
+    func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
+        print("Failed to register notification with error: \(error)")
+    }
+    
+    
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any]) {
+        print("Just received notification: \(userInfo)")
+    }
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
@@ -41,8 +84,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidBecomeActive(_ application: UIApplication) {
         
         FBSDKAppEvents.activateApp()
-        
-        // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
@@ -72,7 +114,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     
-    
+
     
     
 

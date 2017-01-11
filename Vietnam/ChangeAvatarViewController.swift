@@ -10,6 +10,7 @@ import UIKit
 import Alamofire
 import CoreData
 
+
 class ChangeAvatarViewController: UIViewController, TZImagePickerControllerDelegate {
 
     @IBOutlet weak var avatarImage: UIImageView!

@@ -1172,6 +1172,10 @@
 				INFOPLIST_FILE = Vietnam/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vietnam/XMPPFramework/Vendor/libidn",
+				);
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = kolega.com.Vietnam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1201,6 +1205,10 @@
 				INFOPLIST_FILE = Vietnam/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vietnam/XMPPFramework/Vendor/libidn",
+				);
 				"OTHER_LDFLAGS[arch=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = kolega.com.Vietnam;
 				PRODUCT_NAME = "$(TARGET_NAME)";

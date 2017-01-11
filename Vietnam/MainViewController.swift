@@ -35,6 +35,8 @@ class MainViewController: UIViewController, UISearchBarDelegate, UIGestureRecogn
         self.navigationItem.hidesBackButton = true
 
         HELPER.loadAds()
+        
+        
 
         self.checkSegmentedController()
         

@@ -11,8 +11,8 @@ import CoreData
 import AssetsLibrary
 import MobileCoreServices
 import Alamofire
-
-
+import SwiftyJSON
+import MBProgressHUD
 
 
 class AddAdsViewController: UIViewController, UIGestureRecognizerDelegate, TZImagePickerControllerDelegate, UICollectionViewDelegate, UICollectionViewDataSource, ChangeCategoryDelegate, UITextViewDelegate {
@@ -254,7 +254,7 @@ class AddAdsViewController: UIViewController, UIGestureRecognizerDelegate, TZIma
     
     func isLogged(){
         
-        let managedContext = self.managedObjectContext()
+        let managedContext = HELPER.managedObjectContext()
         
         let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Isregistered")
         
@@ -265,7 +265,7 @@ class AddAdsViewController: UIViewController, UIGestureRecognizerDelegate, TZIma
             if model.count == 0 {
                 let storyboard = UIStoryboard(name: "Main", bundle: nil)
                 let unloggedVC = storyboard.instantiateViewController(withIdentifier: "unloggedVC") as! UnloggedViewController
-                self.navigationController?.pushViewController(unloggedVC, animated: true)
+                self.navigationController?.pushViewController(unloggedVC, animated: false)
                 print("I'ts empty array")
             } else {
                 self.user = HELPER.getUser()
@@ -609,24 +609,6 @@ class AddAdsViewController: UIViewController, UIGestureRecognizerDelegate, TZIma
         // Pass the selected object to the new view controller.
     }
     */
-    
-    
-    
-    func managedObjectContext() -> NSManagedObjectContext{
-        
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        var context = NSManagedObjectContext(concurrencyType: .mainQueueConcurrencyType)
-        if #available(iOS 10.0, *) {
-            context = appDelegate.persistentContainer.viewContext
-        } else {
-            
-        }
-        
-        return context
-    }
-    
-    
-    
     
     
 

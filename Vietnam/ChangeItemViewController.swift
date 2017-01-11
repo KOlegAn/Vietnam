@@ -8,7 +8,8 @@
 
 import UIKit
 import Alamofire
-
+import SwiftyJSON
+import MBProgressHUD
 
 class ChangeItemViewController: UIViewController {
 

@@ -9,6 +9,8 @@
 import UIKit
 import Alamofire
 import CoreData
+import MBProgressHUD
+import SwiftyJSON
 
 class RegistrationViewController: UIViewController {
 

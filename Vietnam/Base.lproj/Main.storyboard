@@ -13,7 +13,7 @@
         <!--Избранное-->
         <scene sceneID="XVq-ci-dfa">
             <objects>
-                <viewController storyboardIdentifier="favoritesVC" id="AeQ-iZ-gyG" customClass="FavoritesViewController" customModule="Vietnam" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="favoritesVC" id="AeQ-iZ-gyG" customClass="FavoritesViewController" customModule="InVietnam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YTp-Mf-H9t"/>
                         <viewControllerLayoutGuide type="bottom" id="EwU-jl-x2e"/>
@@ -27,7 +27,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="favoritesCell" rowHeight="110" id="IRu-Qk-MJU" customClass="FavoritesTableViewCell" customModule="Vietnam" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="favoritesCell" rowHeight="110" id="IRu-Qk-MJU" customClass="FavoritesTableViewCell" customModule="InVietnam" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="110"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IRu-Qk-MJU" id="I1U-b8-hVs">
@@ -123,7 +123,7 @@
         <!--Choose Category View Controller-->
         <scene sceneID="NpF-Kw-jGt">
             <objects>
-                <tableViewController storyboardIdentifier="ccVC" id="Px9-9C-uXx" customClass="ChooseCategoryViewController" customModule="Vietnam" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="ccVC" id="Px9-9C-uXx" customClass="ChooseCategoryViewController" customModule="InVietnam" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="tPW-Jb-hhe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -160,7 +160,7 @@
         <!--Оставить объявление-->
         <scene sceneID="mF2-kD-aMp">
             <objects>
-                <viewController storyboardIdentifier="addAdsVC" id="0YF-fu-tkI" customClass="AddAdsViewController" customModule="Vietnam" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="addAdsVC" id="0YF-fu-tkI" customClass="AddAdsViewController" customModule="InVietnam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JLx-4c-kmg"/>
                         <viewControllerLayoutGuide type="bottom" id="3er-dh-pfY"/>
@@ -268,7 +268,7 @@
                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         </collectionViewFlowLayout>
                                         <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cpCell" id="1wW-lx-ZyU" customClass="ChoosedPicturesViewCell" customModule="Vietnam" customModuleProvider="target">
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cpCell" id="1wW-lx-ZyU" customClass="ChoosedPicturesViewCell" customModule="InVietnam" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -389,10 +389,10 @@
             </objects>
             <point key="canvasLocation" x="5332" y="-1719.4902548725638"/>
         </scene>
-        <!--Did from storyboard-->
+        <!--Чаты-->
         <scene sceneID="0z4-jS-3i0">
             <objects>
-                <viewController id="0Av-J3-EX6" customClass="ListViewController" customModule="Vietnam" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0Av-J3-EX6" customClass="ListViewController" customModule="InVietnam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Jkf-7d-028"/>
                         <viewControllerLayoutGuide type="bottom" id="qS1-3K-wIO"/>
@@ -400,6 +400,37 @@
                     <view key="view" contentMode="scaleToFill" id="2kU-cu-Zeg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7LS-8t-ixD">
+                                <rect key="frame" x="0.0" y="95" width="375" height="572"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="chatCell" id="72u-zl-N4g" customClass="ChatViewCell" customModule="InVietnam" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="72u-zl-N4g" id="sRU-Nv-S6l">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="0Av-J3-EX6" id="gqg-SE-adF"/>
+                                    <outlet property="delegate" destination="0Av-J3-EX6" id="tYi-T7-amB"/>
+                                </connections>
+                            </tableView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mcq-6M-gvO">
+                                <rect key="frame" x="16" y="64" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="sendMessage:" destination="0Av-J3-EX6" eventType="editingDidEndOnExit" id="mBX-9S-qxc"/>
+                                </connections>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <connections>
@@ -407,7 +438,11 @@
                             <outletCollection property="gestureRecognizers" destination="iPV-1o-Xvm" appends="YES" id="xcI-RU-Y5Z"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" title="Did from storyboard" id="JhU-Xk-eMz"/>
+                    <navigationItem key="navigationItem" title="Чаты" id="JhU-Xk-eMz"/>
+                    <connections>
+                        <outlet property="messageTextField" destination="mcq-6M-gvO" id="fSu-a1-hh1"/>
+                        <outlet property="tableView" destination="7LS-8t-ixD" id="UHc-oJ-JFz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RXJ-ZC-XRP" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="KcZ-t1-ahs">
@@ -426,7 +461,7 @@
         <!--Я-->
         <scene sceneID="Dlq-NM-9o4">
             <objects>
-                <viewController storyboardIdentifier="meVC" id="xus-mh-Ds8" customClass="MeViewController" customModule="Vietnam" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="meVC" id="xus-mh-Ds8" customClass="MeViewController" customModule="InVietnam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jUO-KN-Ai5"/>
                         <viewControllerLayoutGuide type="bottom" id="jn8-lH-7MW"/>
@@ -443,7 +478,7 @@
                                     <constraint firstAttribute="width" constant="375" id="jyn-pe-ujE"/>
                                 </constraints>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" hidesAccessoryWhenEditing="NO" indentationWidth="10" reuseIdentifier="mainInfoCell" rowHeight="100" id="Nyj-rB-K5z" customClass="MainInfoCell" customModule="Vietnam" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" hidesAccessoryWhenEditing="NO" indentationWidth="10" reuseIdentifier="mainInfoCell" rowHeight="100" id="Nyj-rB-K5z" customClass="MainInfoCell" customModule="InVietnam" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="56" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Nyj-rB-K5z" id="z44-w5-3qe">
@@ -451,14 +486,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jkX-b9-igm">
-                                                    <rect key="frame" x="150" y="18" width="152.5" height="21"/>
+                                                    <rect key="frame" x="149.5" y="18" width="152.5" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nickname" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8RE-eC-3S2">
-                                                    <rect key="frame" x="150" y="61" width="152.5" height="21"/>
+                                                    <rect key="frame" x="149.5" y="61" width="152.5" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -476,7 +511,7 @@
                                             <outlet property="nicknameLabel" destination="8RE-eC-3S2" id="1wn-OX-Hed"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="adsInfoCell" rowHeight="40" id="WyV-mg-PMm" customClass="AdsInfoCell" customModule="Vietnam" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="adsInfoCell" rowHeight="40" id="WyV-mg-PMm" customClass="AdsInfoCell" customModule="InVietnam" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="156" width="375" height="40"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WyV-mg-PMm" id="dXq-mu-ukV">
@@ -484,7 +519,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ywQ-My-ylv">
-                                                    <rect key="frame" x="44" y="9" width="283.5" height="20"/>
+                                                    <rect key="frame" x="44" y="9" width="283" height="20"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -556,13 +591,13 @@
         <!--Person Settings View Controller-->
         <scene sceneID="3th-ei-weB">
             <objects>
-                <tableViewController storyboardIdentifier="personSetVC" id="2xL-Wa-TTD" customClass="PersonSettingsViewController" customModule="Vietnam" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="personSetVC" id="2xL-Wa-TTD" customClass="PersonSettingsViewController" customModule="InVietnam" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="80" sectionHeaderHeight="18" sectionFooterHeight="1" id="vhG-jX-feZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.96999999999999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="personSetCell" id="YT9-oX-gVn" customClass="PersonSetCell" customModule="Vietnam" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="personSetCell" id="YT9-oX-gVn" customClass="PersonSetCell" customModule="InVietnam" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="56" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YT9-oX-gVn" id="pzX-G7-sqj">
@@ -570,21 +605,21 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Value" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLe-dO-ZAO">
-                                            <rect key="frame" x="154.5" y="23.5" width="208" height="21.5"/>
+                                            <rect key="frame" x="154.5" y="23" width="207.5" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Фото профиля" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hr0-6Y-Nna">
-                                            <rect key="frame" x="15" y="23.5" width="179" height="21.5"/>
+                                            <rect key="frame" x="15" y="23" width="179" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M3N-PF-Iy0">
-                                            <rect key="frame" x="283" y="5" width="74" height="71.5"/>
+                                            <rect key="frame" x="282.5" y="4.5" width="74" height="71"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                         </imageView>
                                     </subviews>
@@ -609,7 +644,7 @@
         <!--Settings View Controller-->
         <scene sceneID="PiP-dI-Dbr">
             <objects>
-                <viewController storyboardIdentifier="settingsVC" id="ZqV-xk-AuA" customClass="SettingsViewController" customModule="Vietnam" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="settingsVC" id="ZqV-xk-AuA" customClass="SettingsViewController" customModule="InVietnam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="R6n-Lp-GJj"/>
                         <viewControllerLayoutGuide type="bottom" id="OrQ-AM-1tm"/>
@@ -626,7 +661,7 @@
                                     <constraint firstAttribute="height" constant="667" id="ZPd-TH-fUb"/>
                                 </constraints>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="settingsCell" id="ss1-uc-JcH" customClass="SettingsViewCell" customModule="Vietnam" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="settingsCell" id="ss1-uc-JcH" customClass="SettingsViewCell" customModule="InVietnam" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="56" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ss1-uc-JcH" id="Z5g-lG-vWP">
@@ -681,7 +716,7 @@
         <!--Unlogged View Controller-->
         <scene sceneID="7Kq-cA-Wkc">
             <objects>
-                <viewController storyboardIdentifier="unloggedVC" id="kjW-uE-TpQ" customClass="UnloggedViewController" customModule="Vietnam" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="unloggedVC" id="kjW-uE-TpQ" customClass="UnloggedViewController" customModule="InVietnam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="76R-uA-nd9"/>
                         <viewControllerLayoutGuide type="bottom" id="NpH-gG-RtX"/>
@@ -743,7 +778,7 @@
         <!--Войдите через Email-->
         <scene sceneID="z43-xb-cSl">
             <objects>
-                <viewController id="gwT-DU-rKl" customClass="EmailLoginViewController" customModule="Vietnam" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gwT-DU-rKl" customClass="EmailLoginViewController" customModule="InVietnam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wN9-P2-K4P"/>
                         <viewControllerLayoutGuide type="bottom" id="hC2-QY-Ase"/>
@@ -807,7 +842,7 @@
         <!--SearchT View Controller-->
         <scene sceneID="t71-Ql-zgH">
             <objects>
-                <tableViewController storyboardIdentifier="searchVC" extendedLayoutIncludesOpaqueBars="YES" id="Cva-UD-TtT" customClass="SearchTViewController" customModule="Vietnam" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="searchVC" extendedLayoutIncludesOpaqueBars="YES" id="Cva-UD-TtT" customClass="SearchTViewController" customModule="InVietnam" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="IcT-Zh-E0L">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -844,7 +879,7 @@
         <!--Поиск-->
         <scene sceneID="9gi-aO-qa2">
             <objects>
-                <viewController storyboardIdentifier="resultsVC" id="zC5-8V-MLe" customClass="ResultsViewController" customModule="Vietnam" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="resultsVC" id="zC5-8V-MLe" customClass="ResultsViewController" customModule="InVietnam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5Y8-eh-VHX"/>
                         <viewControllerLayoutGuide type="bottom" id="g52-Qh-dkB"/>
@@ -858,7 +893,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="resultsCell" rowHeight="110" id="Qh0-Ez-6Gv" customClass="ResultsViewCell" customModule="Vietnam" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="resultsCell" rowHeight="110" id="Qh0-Ez-6Gv" customClass="ResultsViewCell" customModule="InVietnam" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="110"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Qh0-Ez-6Gv" id="GHC-Mi-wSx">
@@ -925,7 +960,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="subcategoryCell" id="Hgl-ha-Fnx" customClass="ResultsSubViewCell" customModule="Vietnam" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="subcategoryCell" id="Hgl-ha-Fnx" customClass="ResultsSubViewCell" customModule="InVietnam" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="149" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -996,7 +1031,7 @@
         <!--Ad Details View Controller-->
         <scene sceneID="odV-6Y-Y4D">
             <objects>
-                <viewController storyboardIdentifier="addetailsVC" id="tt1-VR-tBN" customClass="AdDetailsViewController" customModule="Vietnam" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="addetailsVC" id="tt1-VR-tBN" customClass="AdDetailsViewController" customModule="InVietnam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="W4q-jq-eTh"/>
                         <viewControllerLayoutGuide type="bottom" id="kpR-Lk-Yvt"/>
@@ -1027,7 +1062,7 @@
                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         </collectionViewFlowLayout>
                                         <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="addetailsCell" id="nov-Wc-dbo" customClass="AdDetailsViewCell" customModule="Vietnam" customModuleProvider="target">
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="addetailsCell" id="nov-Wc-dbo" customClass="AdDetailsViewCell" customModule="InVietnam" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -1150,7 +1185,7 @@
         <!--Main View Controller-->
         <scene sceneID="qxE-XN-WHh">
             <objects>
-                <viewController storyboardIdentifier="adsVC" id="Gsc-dC-8rm" customClass="MainViewController" customModule="Vietnam" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="adsVC" id="Gsc-dC-8rm" customClass="MainViewController" customModule="InVietnam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XOP-Ho-GUD"/>
                         <viewControllerLayoutGuide type="bottom" id="CHI-IU-Ui5"/>
@@ -1268,7 +1303,7 @@
         <!--Регистрация-->
         <scene sceneID="Hzl-vX-doi">
             <objects>
-                <viewController storyboardIdentifier="registrationVC" id="Ur8-yf-xt2" customClass="RegistrationViewController" customModule="Vietnam" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="registrationVC" id="Ur8-yf-xt2" customClass="RegistrationViewController" customModule="InVietnam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xWs-Vd-fGO"/>
                         <viewControllerLayoutGuide type="bottom" id="ren-PO-zSt"/>
@@ -1495,11 +1530,11 @@
             </objects>
             <point key="canvasLocation" x="2721" y="-1720"/>
         </scene>
-        <!--Лента-->
+        <!--Чаты-->
         <scene sceneID="gjE-Vj-T7f">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XiE-41-jAc" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Лента" image="list" selectedImage="listF" id="fER-rb-PUn">
+                    <tabBarItem key="tabBarItem" title="Чаты" image="list" selectedImage="listF" id="fER-rb-PUn">
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="-4"/>
                     </tabBarItem>
                     <toolbarItems/>
@@ -1519,7 +1554,7 @@
         <!--Main Category View Controller-->
         <scene sceneID="wSU-LQ-cSg">
             <objects>
-                <viewController id="mVN-RA-lkl" customClass="MainCategoryViewController" customModule="Vietnam" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="mVN-RA-lkl" customClass="MainCategoryViewController" customModule="InVietnam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FyO-B7-uzs"/>
                         <viewControllerLayoutGuide type="bottom" id="did-x9-DC2"/>
@@ -1539,7 +1574,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="homeCell" id="aNl-QT-nic" customClass="MainCollectionViewCell" customModule="Vietnam" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="homeCell" id="aNl-QT-nic" customClass="MainCollectionViewCell" customModule="InVietnam" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -1584,7 +1619,7 @@
         <!--Main Table View Controller-->
         <scene sceneID="VE2-Cf-xmd">
             <objects>
-                <viewController id="EuT-hr-tdE" customClass="MainTableViewController" customModule="Vietnam" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="EuT-hr-tdE" customClass="MainTableViewController" customModule="InVietnam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="exx-Y6-ghy"/>
                         <viewControllerLayoutGuide type="bottom" id="OX7-r1-Lgu"/>
@@ -1598,7 +1633,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MainTableCell" id="ojP-R7-6Z6" customClass="MainTableViewCell" customModule="Vietnam" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MainTableCell" id="ojP-R7-6Z6" customClass="MainTableViewCell" customModule="InVietnam" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="110"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ojP-R7-6Z6" id="5N9-eq-wRf">
@@ -1611,14 +1646,14 @@
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Заголовок" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="INL-Yi-5ba">
-                                                    <rect key="frame" x="135" y="41" width="235" height="39"/>
+                                                    <rect key="frame" x="134.5" y="41" width="235" height="39"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Доп инфо" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WKz-gu-eRh">
-                                                    <rect key="frame" x="135" y="83" width="235" height="24"/>
+                                                    <rect key="frame" x="134.5" y="83" width="235" height="24"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                     <nil key="textColor"/>

@@ -1,22 +1,30 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2272E3ADD07AA5D9FDFFAAAF82B0B2BA655FBFCF",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "272F684BDB48C12FB82F63EFB90FF2436BBA2473" : 9223372036854775807,
+    "2272E3ADD07AA5D9FDFFAAAF82B0B2BA655FBFCF" : 9223372036854775807,
     "CADC4D1B031AED4FEFB66A1DCF54AE5FF592E1F0" : 9223372036854775807,
+    "272F684BDB48C12FB82F63EFB90FF2436BBA2473" : 9223372036854775807,
     "E28E36D423EC87798E52E2BF482E9F7A1E6479D6" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "ADC22997-CC89-49AF-89BB-75ADFE3FC17A",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "272F684BDB48C12FB82F63EFB90FF2436BBA2473" : "Vietnam\/SDWebImage\/Vendors\/libwebp\/",
+    "2272E3ADD07AA5D9FDFFAAAF82B0B2BA655FBFCF" : "Vietnam\/",
     "CADC4D1B031AED4FEFB66A1DCF54AE5FF592E1F0" : "Vietnam\/SDWebImage\/Vendors\/FLAnimatedImage\/",
+    "272F684BDB48C12FB82F63EFB90FF2436BBA2473" : "Vietnam\/SDWebImage\/Vendors\/libwebp\/",
     "E28E36D423EC87798E52E2BF482E9F7A1E6479D6" : "Vietnam\/SDWebImage\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Vietnam",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Vietnam.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/KOlegAn\/Vietnam.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2272E3ADD07AA5D9FDFFAAAF82B0B2BA655FBFCF"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/webmproject\/libwebp",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",

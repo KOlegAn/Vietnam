@@ -9,6 +9,9 @@
 import UIKit
 import CoreData
 import Alamofire
+import VK_ios_sdk
+import SwiftyJSON
+import MBProgressHUD
 
 class UnloggedViewController: UIViewController, VKSdkUIDelegate, VKSdkDelegate, UIGestureRecognizerDelegate {
 

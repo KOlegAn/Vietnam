@@ -85,7 +85,7 @@ class MeViewController: UIViewController, UITableViewDelegate, UITableViewDataSo
 
     func isLogged(){
         
-        let managedContext = self.managedObjectContext()
+        let managedContext = HELPER.managedObjectContext()
        
         let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Isregistered")
         
@@ -312,7 +312,7 @@ class MeViewController: UIViewController, UITableViewDelegate, UITableViewDataSo
     }
     
     func deleteUser(){
-        let managedContext = self.managedObjectContext()
+        let managedContext = HELPER.managedObjectContext()
         let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Isregistered")
         let request = NSBatchDeleteRequest(fetchRequest: fetchRequest)
         
@@ -334,19 +334,7 @@ class MeViewController: UIViewController, UITableViewDelegate, UITableViewDataSo
         return indicator
     }
     
-    func managedObjectContext() -> NSManagedObjectContext{
-        
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        var context = NSManagedObjectContext(concurrencyType: .mainQueueConcurrencyType)
-        if #available(iOS 10.0, *) {
-            context = appDelegate.persistentContainer.viewContext
-        } else {
-            
-        }
-        
-        return context
-    }
-    
+
    
     @IBAction func prevVC(_ sender: Any) {
         self.tabBarController?.selectedIndex = 3
